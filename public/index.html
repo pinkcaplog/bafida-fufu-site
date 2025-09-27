@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bafida Fufu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bafida Fufu</h1>
+    <p>Freshly packed fufu delivered to you</p>
+  </header>
+
+  <section id="prices">
+    <h2>Prices</h2>
+    <ul>
+      <li>1 kg – ₦1,500</li>
+      <li>10 kg – ₦14,000</li>
+    </ul>
+  </section>
+
+  <section id="order">
+    <h2>Place an Order</h2>
+    <form id="orderForm">
+      <label>Name: <input type="text" name="name" required></label>
+      <label>Phone: <input type="tel" name="phone" required></label>
+      <label>Quantity (kg): <input type="number" name="quantity" min="1" required></label>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
